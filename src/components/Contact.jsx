@@ -93,9 +93,12 @@ const Contact = () => {
     if (Object.keys(currentErrors).length === 0) {
       setIsSubmitting(true);
       try {
-        const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+        const isProd = import.meta.env.PROD;
+        const defaultApiUrl = isProd ? '' : 'http://localhost:5000';
+        const apiUrl = import.meta.env.VITE_API_URL || defaultApiUrl;
         const response = await fetch(`${apiUrl}/api/contact`, {
           method: 'POST',
+
           headers: {
             'Content-Type': 'application/json',
           },
