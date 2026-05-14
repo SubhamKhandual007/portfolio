@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Mail, MapPin, Send } from 'lucide-react';
+import { Mail, MapPin, Send, Linkedin } from 'lucide-react';
 import styles from './Contact.module.css';
 
 const Contact = () => {
@@ -132,6 +132,21 @@ const Contact = () => {
                 <p>Bhubaneswar, India</p>
               </div>
             </div>
+
+            <a 
+              href="https://www.linkedin.com/in/subham-khandual/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className={`${styles.infoCard} ${styles.linkCard}`}
+            >
+              <div className={styles.iconWrapper}>
+                <Linkedin />
+              </div>
+              <div>
+                <h3>LinkedIn</h3>
+                <p>Connect with me</p>
+              </div>
+            </a>
           </motion.div>
 
           <motion.form 
@@ -202,7 +217,18 @@ const Contact = () => {
       </div>
       
       <footer className={styles.footer}>
-        <p>&copy; {new Date().getFullYear()} CS Portfolio. All rights reserved.</p>
+        <div className={styles.socialLinks}>
+          <a 
+            href="https://www.linkedin.com/in/subham-khandual/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+            className={styles.socialIcon}
+          >
+            <Linkedin size={20} />
+          </a>
+        </div>
+        <p>&copy; {new Date().getFullYear()} Subham Khandual. All rights reserved.</p>
       </footer>
     </section>
   );
