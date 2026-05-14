@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Mail, MapPin, Send, Linkedin } from 'lucide-react';
+import { Mail, MapPin, Send, Linkedin, Github } from 'lucide-react';
 import styles from './Contact.module.css';
 
 const Contact = () => {
@@ -147,6 +147,21 @@ const Contact = () => {
                 <p>Connect with me</p>
               </div>
             </a>
+
+            <a 
+              href="https://github.com/SubhamKhandual007" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className={`${styles.infoCard} ${styles.linkCard}`}
+            >
+              <div className={styles.iconWrapper}>
+                <Github />
+              </div>
+              <div>
+                <h3>GitHub</h3>
+                <p>View my projects</p>
+              </div>
+            </a>
           </motion.div>
 
           <motion.form 
@@ -226,6 +241,15 @@ const Contact = () => {
             className={styles.socialIcon}
           >
             <Linkedin size={20} />
+          </a>
+          <a 
+            href="https://github.com/SubhamKhandual007" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+            className={styles.socialIcon}
+          >
+            <Github size={20} />
           </a>
         </div>
         <p>&copy; {new Date().getFullYear()} Subham Khandual. All rights reserved.</p>
