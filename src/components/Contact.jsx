@@ -168,7 +168,7 @@ const Contact = () => {
             <a 
               href="https://www.linkedin.com/in/subham-khandual/" 
               target="_blank" 
-              rel="noopener noreferrer"
+              rel="noopener noreferrer me"
               className={`${styles.infoCard} ${styles.linkCard}`}
             >
               <div className={styles.iconWrapper}>
@@ -183,7 +183,7 @@ const Contact = () => {
             <a 
               href="https://github.com/SubhamKhandual007" 
               target="_blank" 
-              rel="noopener noreferrer"
+              rel="noopener noreferrer me"
               className={`${styles.infoCard} ${styles.linkCard}`}
             >
               <div className={styles.iconWrapper}>
@@ -268,7 +268,7 @@ const Contact = () => {
           <a 
             href="https://www.linkedin.com/in/subham-khandual/" 
             target="_blank" 
-            rel="noopener noreferrer"
+            rel="noopener noreferrer me"
             aria-label="LinkedIn"
             className={styles.socialIcon}
           >
@@ -277,7 +277,7 @@ const Contact = () => {
           <a 
             href="https://github.com/SubhamKhandual007" 
             target="_blank" 
-            rel="noopener noreferrer"
+            rel="noopener noreferrer me"
             aria-label="GitHub"
             className={styles.socialIcon}
           >
@@ -286,7 +286,7 @@ const Contact = () => {
           <a 
             href="https://www.instagram.com/mr_subham7.0?igsh=MTFud3JibGhqbGw4bQ==" 
             target="_blank" 
-            rel="noopener noreferrer"
+            rel="noopener noreferrer me"
             aria-label="Instagram"
             className={styles.socialIcon}
           >
@@ -295,7 +295,7 @@ const Contact = () => {
           <a 
             href="https://www.facebook.com/share/1LuEB32wPV/" 
             target="_blank" 
-            rel="noopener noreferrer"
+            rel="noopener noreferrer me"
             aria-label="Facebook"
             className={styles.socialIcon}
           >
