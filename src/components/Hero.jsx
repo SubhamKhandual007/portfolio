@@ -25,7 +25,7 @@ const Hero = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.2 }}
           >
-            subham khandual | CS Student
+            Subham Khandual | CS Student
           </motion.div>
 
           <motion.h1 
@@ -71,8 +71,8 @@ const Hero = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.6 }}
           >
-            <a href="https://github.com/SubhamKhandual007" target="_blank" rel="noreferrer" className={styles.socialIcon}><Code size={20} /> <span className={styles.socialText}>GitHub</span></a>
-            <a href="https://www.linkedin.com/in/subham-khandual/" target="_blank" rel="noreferrer" className={styles.socialIcon}><User size={20} /> <span className={styles.socialText}>LinkedIn</span></a>
+            <a href="https://github.com/SubhamKhandual007" target="_blank" rel="noreferrer me" className={styles.socialIcon}><Code size={20} /> <span className={styles.socialText}>GitHub</span></a>
+            <a href="https://www.linkedin.com/in/subham-khandual/" target="_blank" rel="noreferrer me" className={styles.socialIcon}><User size={20} /> <span className={styles.socialText}>LinkedIn</span></a>
             <a href="mailto:subhamkhandual215@gmail.com" className={styles.socialIcon}><Mail size={20} /> <span className={styles.socialText}>Email</span></a>
           </motion.div>
         </motion.div>
