@@ -39,7 +39,7 @@ const projectsData = [
     github: 'https://github.com/subham-khandual/swasthyasetu',
     live: 'https://swasthyasetu-tsbt.vercel.app',
     features: [
-      'Integrated Susri Healthcare Chatbot for instant diagnosis',
+      'Integrated Sayraa Healthcare Chatbot for instant diagnosis',
       'Real-time blood bank availability locator',
       'Instant doctor consultation booking system',
       'Emergency first-aid guidance & hospital finder'

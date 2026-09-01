@@ -16,7 +16,7 @@ const repos = [
   },
   {
     name: 'swasthyasetu',
-    description: 'Comprehensive healthcare platform featuring Susri Healthcare Chatbot, doctor booking, & blood availability tracking.',
+    description: 'Comprehensive healthcare platform featuring Sayraa Healthcare Chatbot, doctor booking, & blood availability tracking.',
     stars: 6,
     forks: 2,
     language: 'JavaScript',
